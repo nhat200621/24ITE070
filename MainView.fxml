@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" prefHeight="358.0" prefWidth="192.0" spacing="10" style="-fx-background-color: linear-gradient(to right, #FF7E5F, #FEB47B, #FFCC33);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.MainController">
+   <Text fill="#0900ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh bạ" textAlignment="CENTER" wrappingWidth="85.47009468078613">
+      <font>
+         <Font name="Candara Italic" size="21.0" />
+      </font>
+   </Text>
+    <Button fx:id="addButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff); -fx-background-radius: 10;" text="Thêm liên hệ" />
+    <Button fx:id="birthdayButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff); -fx-background-radius: 10;" text="Cập nhật ngày sinh" />
+    <Button fx:id="kycButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="KYC - Cập nhật CCCD" />
+    <Button fx:id="accountButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Cập nhật Tài khoản" />
+    <Button fx:id="socialInfoButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Cập nhật Thông tin liên hệ" />
+    <Button fx:id="displayButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Hiển thị danh sách" />
+    <Button fx:id="searchButton" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Tìm kiếm liên hệ" />
+    <Button fx:id="updateButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Cập nhật liên hệ" />
+    <Button fx:id="deleteButton" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: linear-gradient(to bottom, #FF7E5F, #FEB47B, #FFCC33); -fx-background-radius: 10; -fx-text-fill: linear-gradient(to bottom, #00ffcc, #0066ff);" text="Xóa liên hệ" />
+</VBox>
